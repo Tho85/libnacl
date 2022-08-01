@@ -9,6 +9,17 @@ as well as being completely portable. The file in libnacl/__init__.py
 can be pulled out and placed directly in any project to give a single file
 binding to all of nacl.
 
+Fork by @Tho85
+==============
+
+This is a fork of the original code at https://github.com/saltstack/libnacl.
+Its purpose is to install a vendored version of libsodium, so that this
+library can be used in environments where libsodium is not installed by
+default.
+
+For more background, please see this issue: https://github.com/jheling/freeathome/issues/130
+
+
 Higher Level Classes
 ====================
 
